@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap&family=Montserrat:wght@600");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 1489px;
+}
+
+header > h1 {
+  position: absolute;
+  width: 278px;
+  height: 47px;
+  left: 243px;
+  top: 110px;
+
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+
+  color: #000000;
+}
+
+header > h2 {
+  position: absolute;
+  width: 117px;
+  height: 27px;
+  left: 736px;
+  top: 110px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+header > p {
+  position: absolute;
+  width: 439px;
+  height: 87px;
+  left: 736px;
+  top: 147px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+footer {
+  position: absolute;
+  width: 226px;
+  height: 17px;
+  left: 601px;
+  top: 1442px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #a9a9a9;
+}
+
+figure > img {
+  width: 238px;
+}
+
+figure > .role {
+  position: absolute;
+  width: 15px;
+  height: 150px;
+  left: 248px;
+  top: 0px;
+
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+
+  writing-mode: vertical-rl;
+}
+
+figure > figcaption {
+  position: absolute;
+  width: 140px;
+  height: 27px;
+  left: 0px;
+  top: 356px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+#profile-1 {
+  position: absolute;
+  left: 240px;
+  top: 330px;
+}
+
+#profile-2 {
+  position: absolute;
+  left: 571px;
+  top: 429px;
+}
+
+#profile-3 {
+  position: absolute;
+  left: 901px;
+  top: 330px;
+}
+#profile-4 {
+  position: absolute;
+  left: 241px;
+  top: 845px;
+}
+#profile-5 {
+  position: absolute;
+  left: 571px;
+  top: 944px;
+}
+#profile-6 {
+  position: absolute;
+  left: 901px;
+  top: 845px;
+}
