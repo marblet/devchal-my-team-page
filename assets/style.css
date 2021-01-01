@@ -6,17 +6,15 @@
 }
 
 .wrapper {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
-header > h1 {
-  position: absolute;
-  width: 278px;
-  height: 47px;
+header {
+  flex-wrap: wrap;
+}
 
-  font-family: PT Serif;
+header h1 {
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -26,12 +24,8 @@ header > h1 {
   color: #000000;
 }
 
-header > h2 {
-  position: absolute;
-  width: 117px;
-  height: 27px;
-
-  font-family: Poppins;
+header h2 {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -43,29 +37,33 @@ header > h2 {
   color: #000000;
 }
 
-header > p {
-  position: absolute;
-
+header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 27px;
 }
 
 footer {
-  position: absolute;
-
-  font-family: Montserrat;
+  width: 100%;
+  margin: 100px 0 20px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
   color: #a9a9a9;
+  text-align: center;
 }
 
-figure > .role {
-  position: absolute;
-  font-family: PT Serif;
+.figs-wrapper {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+figure .role {
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
@@ -73,99 +71,84 @@ figure > .role {
   writing-mode: vertical-rl;
 }
 
-figure > figcaption {
-  position: absolute;
-
-  font-family: Poppins;
+figure figcaption {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   color: #000000;
 }
 
+.flex {
+  display: flex;
+}
+
 @media screen and (min-width: 601px) {
   .wrapper {
-    width: 1440px;
-    height: 1489px;
+    max-width: 1440px;
   }
 
-  header > h1 {
-    left: 243px;
-    top: 110px;
+  header {
+    width: 100%;
+    margin-top: 110px;
   }
 
-  header > h2 {
+  header > .header-1 {
+    margin-left: 15%;
+  }
+
+  header > .header-2 {
+    margin-left: 15%;
+  }
+
+  header h2 {
     left: 736px;
     top: 110px;
   }
 
-  header > p {
+  header p {
     width: 439px;
     height: 87px;
-    left: 736px;
-    top: 147px;
 
     font-size: 18px;
     line-height: 27px;
   }
 
-  footer {
-    width: 226px;
-    height: 17px;
-    left: 601px;
-    top: 1442px;
+  main {
+    margin-top: 95px;
   }
 
-  figure > img {
+  .figs-wrapper {
+    margin: 0 200px;
+  }
+  .fig-wrapper {
+    height: 515px;
+  }
+
+  figure img {
     width: 238px;
   }
 
-  figure > figcaption {
-    width: 140px;
-    height: 27px;
-    left: 0px;
-    top: 356px;
-
+  figure figcaption {
+    margin-top: 15px;
     font-size: 18px;
     line-height: 27px;
   }
-  figure > .role {
-    width: 15px;
-    height: 150px;
-    left: 248px;
-    top: 0px;
-
+  figure .role {
+    margin-left: 10px;
     font-size: 12px;
     line-height: 16px;
   }
   #profile-1 {
-    position: absolute;
-    left: 240px;
-    top: 330px;
   }
-  #profile-2 {
-    position: absolute;
-    left: 571px;
-    top: 429px;
+  #profile-2,
+  #profile-5 {
+    margin-top: 100px;
   }
   #profile-3 {
-    position: absolute;
-    left: 901px;
-    top: 330px;
   }
   #profile-4 {
-    position: absolute;
-    left: 241px;
-    top: 845px;
-  }
-  #profile-5 {
-    position: absolute;
-    left: 571px;
-    top: 944px;
   }
   #profile-6 {
-    position: absolute;
-    left: 901px;
-    top: 845px;
   }
 }
 
