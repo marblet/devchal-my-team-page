@@ -118,7 +118,8 @@ figure figcaption {
   }
 
   .figs-wrapper {
-    margin: 0 200px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .fig-wrapper {
     height: 515px;
