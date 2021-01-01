@@ -82,7 +82,7 @@ figure figcaption {
   display: flex;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
   .wrapper {
     max-width: 1440px;
   }
@@ -138,99 +138,48 @@ figure figcaption {
     font-size: 12px;
     line-height: 16px;
   }
-  #profile-1 {
-  }
   #profile-2,
   #profile-5 {
     margin-top: 100px;
   }
-  #profile-3 {
-  }
-  #profile-4 {
-  }
-  #profile-6 {
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .wrapper {
-    width: 375px;
-    height: 1315px;
+  header {
+    margin: 71px 12px 0;
   }
-  header > h1 {
-    left: 12px;
-    top: 17px;
+  header p {
+    font-size: 14px;
+    line-height: 21px;
   }
-  header > h2 {
-    left: 12px;
-    top: 102px;
+  .header-2 {
+    margin-top: 40px;
   }
-  header > p {
-    width: 333px;
-    height: 87px;
-    left: 12px;
-    top: 139px;
 
+  main {
+    margin-top: 50px;
+  }
+  .figs-wrapper {
+    margin: 0 19px;
+  }
+  figure img {
+    width: calc(100vw * 0.37);
+    min-width: 138.72px;
+  }
+  figure figcaption {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 21px;
   }
 
-  footer {
-    width: 226px;
-    height: 18.31px;
-    left: 75px;
-    top: 1268px;
-  }
-  figure > img {
-    width: 138.72px;
-  }
-  figure > figcaption {
-    width: 140px;
-    height: 18px;
-    left: 0px;
-    top: 205px;
-
-    font-size: 14px;
-    line-height: 21px;
-  }
-
-  figure > .role {
-    width: 13px;
-    height: 150px;
-    left: 145px;
-    top: 0px;
-
+  figure .role {
+    margin-left: 6px;
     font-size: 10px;
     line-height: 13px;
-  }
-  #profile-1,
-  #profile-3,
-  #profile-5 {
-    position: absolute;
-    left: 19px;
   }
   #profile-2,
   #profile-4,
   #profile-6 {
-    position: absolute;
-    left: 201.65px;
-  }
-  #profile-1 {
-    top: 264px;
-  }
-  #profile-2 {
-    top: 312px;
-  }
-  #profile-3 {
-    top: 565px;
-  }
-  #profile-4 {
-    top: 613px;
-  }
-  #profile-5 {
-    top: 876px;
-  }
-  #profile-6 {
-    top: 925px;
+    margin-top: 48px;
   }
 }
